@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "962a594f-7afe-4d8b-ba5c-cce5494323f6": {
+        "id": "962a594f-7afe-4d8b-ba5c-cce5494323f6",
+        "parent": null,
+        "name": "hiru0608_trigger",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cf5b72f2-cad7-473b-861d-fb894c4442d3"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru0608_trigger"
+      },
+      "cf5b72f2-cad7-473b-861d-fb894c4442d3": {
+        "id": "cf5b72f2-cad7-473b-861d-fb894c4442d3",
+        "parent": "962a594f-7afe-4d8b-ba5c-cce5494323f6",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru0608_trigger/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "962a594f-7afe-4d8b-ba5c-cce5494323f6",
+    "openFiles": [
+      "cf5b72f2-cad7-473b-861d-fb894c4442d3"
+    ],
+    "currentFileId": "cf5b72f2-cad7-473b-861d-fb894c4442d3",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru0608_trigger",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565088205063
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0608_trigger",
+      "url": "https://github.com/HirudineeADRT/hiru0608_trigger"
+    }
+  }
+}
